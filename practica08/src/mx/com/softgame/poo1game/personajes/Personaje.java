@@ -8,9 +8,12 @@ public class Personaje{
 	private String nombre;
 	private int vida;
 	//constructor
-	public Personaje (String nombre){
+	public Personaje (String nombre, int vida){
 		this.nombre = nombre;
 		this.vida = vida;
+	}
+	public Personaje (String nombre, 3){
+		this.nombre = nombre;
 	}
 	//metodos
 	public String getNombre(){
