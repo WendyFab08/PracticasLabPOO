@@ -23,7 +23,7 @@ public class Personaje{
 
 	public boolean equals(Object o){
 		boolean result = false;
-		if ((x !=null) && (x instanceof Personaje)){
+		if ((o !=null) && (o instanceof Personaje)){
 			Personaje x = (Personaje) o;
 			if ((nombre.equals(x) && vida == x.vida)){
 				result = true;
