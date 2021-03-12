@@ -18,6 +18,12 @@ public class Personaje{
 	}
 
 	//metodos
+	//agregar el metodo equals
+
+	public boolean equals(Object x){
+		boolean result = false;
+		if ()
+	}
 
 	public String getNombre(){
 		return nombre;
@@ -25,7 +31,7 @@ public class Personaje{
 	public int getVida(){
 		return vida;
 	}
-	public String getDetalle(){
+	public String toString(){
 		return (nombre + "\t" + vida); 
 	}
 	public void setNombre(String nombre){
