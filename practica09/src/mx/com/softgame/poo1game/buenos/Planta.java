@@ -21,6 +21,17 @@ public class Planta extends Personaje{
 	}
 
 	//metodos 
+
+	public boolean equals(Object o){
+		boolean result = super.equals(o);
+		if(o != null && o instanceof Planta){
+			Planta y = (Planta) o;
+			if (escudo.equals(y)){
+				result = true;
+			}
+		}
+		return result
+	}
 	public char getEscudo(){
 		return escudo;
 	}
