@@ -20,16 +20,17 @@ public class Zombie extends Personaje{
 	}
 	//Metodos
 
-	public boolea equals(Object o){
-		boolean result = super.equals(o);
-		if(o !=null && instanceof Zombie){
-			Zombie xy = (Zombie) o;
-			if (nombre.equals(xy) && ataque == xy ataque){
+	public boolean equals(Object o){
+		boolean result = false;
+		if(o != null && o instanceof Zombie){
+			Zombie y = (Zombie) o;
+			if (ataque == y.ataque){
 				result = true;
 			}
 		}
 		return result;
 	}
+
 	public boolean getAtaque(){
 		return ataque;
 	}

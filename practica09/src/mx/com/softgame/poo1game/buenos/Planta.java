@@ -23,14 +23,14 @@ public class Planta extends Personaje{
 	//metodos 
 
 	public boolean equals(Object o){
-		boolean result = super.equals(o);
+		boolean result = false;
 		if(o != null && o instanceof Planta){
 			Planta y = (Planta) o;
-			if (escudo.equals(y)){
+			if (escudo == y.escudo){
 				result = true;
 			}
 		}
-		return result
+		return result;
 	}
 	public char getEscudo(){
 		return escudo;

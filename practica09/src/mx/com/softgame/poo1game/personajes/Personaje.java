@@ -25,7 +25,7 @@ public class Personaje{
 		boolean result = false;
 		if ((o !=null) && (o instanceof Personaje)){
 			Personaje x = (Personaje) o;
-			if ((nombre.equals(x) && vida == x.vida)){
+			if (nombre == x.nombre && vida == x.vida){
 				result = true;
 			}
 
