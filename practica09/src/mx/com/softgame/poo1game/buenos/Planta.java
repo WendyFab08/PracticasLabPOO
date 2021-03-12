@@ -25,8 +25,8 @@ public class Planta extends Personaje{
 		return escudo;
 	}
 
-	public String getDetalle(){
-		return super.getDetalle() + "\t" + escudo;
+	public String toString(){
+		return super.toString() + "\t" + escudo;
 	}
 
 	public void decVida(){
