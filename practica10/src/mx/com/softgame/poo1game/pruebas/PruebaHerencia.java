@@ -1,7 +1,7 @@
-package mx.com.softgame.poo1game.pruebapersonajes;
+package mx.com.softgame.poo1game.pruebas;
 import mx.com.softgame.poo1game.personajes.*;
-import mx.com.softgame.poo1game.buenos.*;
-import mx.com.softgame.poo1game.malos.*;
+import mx.com.softgame.poo1game.personajes.buenos.*;
+import mx.com.softgame.poo1game.personajes.malos.*;
 
 public class PruebaHerencia{
 	public static void main(String[] args) {

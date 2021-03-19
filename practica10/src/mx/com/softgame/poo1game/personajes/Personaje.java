@@ -4,6 +4,7 @@
 //inicio: 7:44 am
 
 package mx.com.softgame.poo1game.personajes;
+import mx.com.softgame.poo1game.utils.*;
 public class Personaje{
 	//atributos
 	protected String nombre;
@@ -18,12 +19,11 @@ public class Personaje{
 		this.nombre = nombre;
 		vida = 3;
 	}
-
 	//metodos
-	
 	// agregar un metodo static y final getIdVida 
-	public Personaje(int Id){
-		this.Id = getId();
+
+	public Personaje(int id){
+		this.Id = getID();
 	}
 
 	public boolean equals(Object o){

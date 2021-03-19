@@ -1,4 +1,4 @@
-package mx.com.softgame.poo1game.buenos;
+package mx.com.softgame.poo1game.personajes.buenos;
 import mx.com.softgame.poo1game.personajes.Personaje;
 public class Planta extends Personaje{
 	public char escudo;
