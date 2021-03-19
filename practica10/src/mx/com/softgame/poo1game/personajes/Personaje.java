@@ -9,8 +9,9 @@ public class Personaje{
 	//atributos
 	protected String nombre;
 	protected int vida;
-	private int Id;
+	private final int id;
 	//constructor
+
 	public Personaje (String nombre, int vida){
 		this.nombre = nombre;
 		this.vida = vida;
@@ -22,8 +23,12 @@ public class Personaje{
 	//metodos
 	// agregar un metodo static y final getIdVida 
 
+	
+	public final String getIdVida(){
+		return ("id" + "vida");
+	}
 	public Personaje(int id){
-		this.Id = getID();
+		this.id = getid();
 	}
 
 	public boolean equals(Object o){
@@ -45,7 +50,7 @@ public class Personaje{
 		return vida;
 	}
 	public String toString(){
-		return (nombre + "\t" + vida); 
+		return (id + nombre + "\t" + vida); 
 	}
 	public void setNombre(String nombre){
 		if (nombre.length() >= 3 && nombre.length() <=10){
