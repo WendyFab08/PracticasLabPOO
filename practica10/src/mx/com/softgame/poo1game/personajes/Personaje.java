@@ -20,7 +20,11 @@ public class Personaje{
 	}
 
 	//metodos
-	//agregar el metodo equals
+	
+	// agregar un metodo static y final getIdVida 
+	public Personaje(int Id){
+		this.Id = getId();
+	}
 
 	public boolean equals(Object o){
 		boolean result = false;
