@@ -1,13 +1,14 @@
 
 //Wendy Fabiola Sandoval García
-//12/03/21
-//inicio: 7:44
+//19/03/21
+//inicio: 7:44 am
 
 package mx.com.softgame.poo1game.personajes;
 public class Personaje{
 	//atributos
 	protected String nombre;
 	protected int vida;
+	private int Id;
 	//constructor
 	public Personaje (String nombre, int vida){
 		this.nombre = nombre;
