@@ -21,6 +21,10 @@ public class Planta extends Personaje{
 	}
 
 	//metodos 
+	//metodo getidVida
+	public String getidVida(){
+		return (id, vida, ataque);
+	}
 
 	public boolean equals(Object o){
 		boolean result = false;

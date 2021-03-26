@@ -9,7 +9,7 @@ public class Personaje{
 	//atributos
 	protected String nombre;
 	protected int vida;
-	private final int id;
+	private final int id = 0;
 	//constructor
 
 	public Personaje (String nombre, int vida){
@@ -27,8 +27,8 @@ public class Personaje{
 	public final String getIdVida(){
 		return ("id" + "vida");
 	}
-	public Personaje(int id){
-		this.id = getid();
+	public Personaje(int id){ 
+		this.id = id;
 	}
 
 	public boolean equals(Object o){
