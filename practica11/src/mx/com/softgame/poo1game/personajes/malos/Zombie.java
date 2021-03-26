@@ -36,8 +36,17 @@ public final class Zombie extends Personaje{
         return super.toString()+" "+"{"+ataque+"}";
     }
     public boolean equals(Object obj){
-       return (super.equals(obj) && obj instanceof Zombie && ataque == ((Zombie)obj).ataque);
+        Boolean iguales = false;
+        if ((obj != null) && obj instanceof Zombie)){
+    Zombie y = (Zombie) x;
+    if (this.nombre.equals(y.nombre) && vida == y.vida && ataque == y.ataque){
+        iguales = true;
     }
+}
+    }
+      
+
+
     public void setNombre(String nombre){
         if (nombre.length() >=3 && nombre.length() <= 8){
             this.nombre = nombre;

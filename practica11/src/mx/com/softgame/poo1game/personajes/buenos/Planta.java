@@ -44,9 +44,7 @@ public class Planta extends Personaje{
             this.nombre = nombre;
         }
 
-        public void setNombre(String nombre); 
-
-        public boolean equals( Object obj);
+       
     }
     /** public static String getIdVida(){
         //getIdVida() in Planta cannot override getIdVida() in Personaje
