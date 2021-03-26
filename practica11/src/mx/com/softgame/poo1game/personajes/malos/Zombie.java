@@ -39,10 +39,15 @@ public final class Zombie extends Personaje{
        return (super.equals(obj) && obj instanceof Zombie && ataque == ((Zombie)obj).ataque);
     }
     public void setNombre(String nombre){
-        if (nombre.length() >=5 && nombre.length() <= 10){
+        if (nombre.length() >=3 && nombre.length() <= 8){
             this.nombre = nombre;
         }
+
     }
+    public void setNombre(String nombre); 
+
+    public boolean equals( Object obj);
+
     /** public static String getIdVida(){
         //getIdVida() in Planta cannot override getIdVida() in Personaje
         return (getIdVida()+" "+ ataque);*/

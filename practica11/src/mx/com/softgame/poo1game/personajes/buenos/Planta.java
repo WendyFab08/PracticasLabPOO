@@ -43,6 +43,10 @@ public class Planta extends Personaje{
         if (nombre.length() >=5 && nombre.length() <= 10){
             this.nombre = nombre;
         }
+
+        public void setNombre(String nombre); 
+
+        public boolean equals( Object obj);
     }
     /** public static String getIdVida(){
         //getIdVida() in Planta cannot override getIdVida() in Personaje
