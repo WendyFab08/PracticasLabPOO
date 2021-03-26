@@ -37,8 +37,8 @@ public final class Zombie extends Personaje{
     }
     public boolean equals(Object obj){
         Boolean iguales = false;
-        if ((obj != null) && obj instanceof Zombie)){
-    Zombie y = (Zombie) x;
+        if ((obj != null) && (obj instanceof Zombie)){
+    Zombie y = (Zombie) obj;
     if (this.nombre.equals(y.nombre) && vida == y.vida && ataque == y.ataque){
         iguales = true;
     }

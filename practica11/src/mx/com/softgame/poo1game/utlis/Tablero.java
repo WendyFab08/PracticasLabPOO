@@ -4,6 +4,8 @@ public class Tablero{
 
 	private int[] personajes=new int[MAX_LINE];
 
-	//Métodos
 
+
+	//Métodos
+	public static boolean addPersonaje(Personaje p)
 }
