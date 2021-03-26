@@ -39,6 +39,11 @@ public class Planta extends Personaje{
 
     }
 
+    public void setNombre(String nombre){
+        if (nombre.length() >=5 && nombre.length() <= 10){
+            this.nombre = nombre;
+        }
+    }
     /** public static String getIdVida(){
         //getIdVida() in Planta cannot override getIdVida() in Personaje
         return (getIdVida()+" "+ escudo);*/
