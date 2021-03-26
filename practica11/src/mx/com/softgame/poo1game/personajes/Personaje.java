@@ -3,7 +3,7 @@ import mx.com.softgame.poo1game.utlis.Utileria;
 
 
 //Hora de inicio: 7:46 am
-public class Personaje{
+public abstract class Personaje{
     protected String nombre;
     protected int vida;
     private final int id;
